@@ -194,6 +194,11 @@ body {
 }
 
 .color-container{
+    padding: 10px 0;
+   
+}
+
+.colors{
     padding: 8px 0;
     display: flex;
     align-items: center;
@@ -205,5 +210,30 @@ body {
     border-radius: 50%;
     margin: 0 10px;
     border: 5px solid;
+}
+
+.color[color="blue"]{
+    background-color: #2175f5;
+    border-color: #2175f5;
+}
+
+.color[color="red"]{
+    background-color: #f84848;
+    border-color: #f84848;
+}
+
+.color[color="green"]{
+    background-color: #29b864;
+    border-color: #29b864;
+}
+
+.color[color="orange"]{
+    background-color: #ff5521;
+    border-color: #ff5521;
+}
+
+.color[color="black"]{
+    background-color: #444;
+    border-color: #444;
 }
 
